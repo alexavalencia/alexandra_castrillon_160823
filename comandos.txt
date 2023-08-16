@@ -1,0 +1,31 @@
+565  mkdir alexandra_castrillon_160823
+  566  cd alexandra_castrillon_160823
+  567  git init
+  568  git checkout -b main
+  569  git remote add origin https://github.com/alexavalencia/alexandra_castrillon_160823.git
+  570  touch main.js index.html
+  571  ls
+  572  git add .
+  573  git commit -m "01 de Alexandra Castrillon"
+  574  git status
+  575  git push origin main
+  576  git checkout -b feature
+  577  mkdir Hardware Software SeguridadInformatica
+  578  touch ./Hardware/resumen.txt ./Software/resument.txt ./SeguridadInformatica/resumen.txt
+  579  ls -R
+  580  git add .
+  581  git commit -m "02 de Alexandra Castrillon"
+  582  git push origin feature
+  583  git checkout main
+  584  mv main.js resumenHardware.txt
+  585  ls
+  586  mv index.html resumenSoftware.txt
+  587  code .
+  588  git add .
+  589  git commit -m "03 de Alexandra Castrillon"
+  590  git push origin main
+  591  touch comandos.txt
+  592  git status
+  593  git add .
+  594  git commit -m "04 de Alexandra Castrillon"
+  595  git push origin main
